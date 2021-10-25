@@ -1,4 +1,3 @@
-let varSignal = 0
 input.onButtonPressed(Button.A, function () {
     basic.showString("A")
     pins.digitalWritePin(DigitalPin.P0, 1)
@@ -27,3 +26,5 @@ input.onButtonPressed(Button.B, function () {
     }
     basic.clearScreen()
 })
+let varSignal = 0
+basic.showIcon(IconNames.Yes)
